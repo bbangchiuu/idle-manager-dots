@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Unity.Entities;
+using Unity.Burst;
+
+[BurstCompile]
+    #ROOTNAMESPACEBEGIN#
+public partial struct #SCRIPTNAME# : ISystem
+{
+    [BurstCompile]
+    public void OnUpdate(ref SystemState state)
+    {
+        #NOTRIM#
+    }	
+}
+#ROOTNAMESPACEEND#

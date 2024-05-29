@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Unity.Entities;
+
+    #ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME# : MonoBehaviour
+{
+    
+}
+
+public class #SCRIPTNAME#Baker : Baker<#SCRIPTNAME#>
+{
+    public override void Bake(#SCRIPTNAME# authoring)
+    {
+        #NOTRIM#
+    }
+}
+#ROOTNAMESPACEEND#
